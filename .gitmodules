@@ -1,0 +1,11 @@
+[submodule "libiec61850"]
+	path = libiec61850
+	url = https://iai-vcs.iai.kit.edu/usjsb/libiec61850.git
+
+[submodule "snort3"]
+	path = snort3
+	url = https://iai-vcs.iai.kit.edu/usjsb/snort3.git
+
+[submodule "snort3_extra"]
+	path = snort3_extra
+	url = https://iai-vcs.iai.kit.edu/usjsb/snort3_extra.git

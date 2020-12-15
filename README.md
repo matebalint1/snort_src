@@ -31,7 +31,6 @@ Start detection
 Run the following Snort 3 command to start real time detection (using the proper snort.lua and goose.rules files from above):
 $ sudo snort --plugin-path /usr/local/lib/snort_extra -c /usr/local/etc/snort/snort.lua -i lo -R /usr/local/etc/snort/rules/goose.rules --warn-all --pedantic -A alert_fast
 
-
 libiec61850 library for testing
 ======================
 
@@ -42,6 +41,15 @@ $ ./examples/goose_publisher/goose_publisher_example lo
 later
 $ ./examples/goose_publisher/goose_publisher_example2 lo
 to send goose packets with incorrect stNums and sqNums.
+
+Upstream repos at:
+======================
+
+https://github.com/snort3/snort3
+
+https://github.com/snort3/snort3_extra
+
+https://github.com/mz-automation/libiec61850
 
 
 

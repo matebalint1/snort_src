@@ -38,8 +38,8 @@ Clone the library https://iai-vcs.iai.kit.edu/usjsb/libiec61850.git, checkout th
 run:
 ```
 $ make
-$ ./examples/goose_publisher/goose_publisher_example lo
-$ ./examples/goose_publisher/goose_publisher_example2 lo
+$ sudo ./examples/goose_publisher/goose_publisher_example lo
+$ sudo ./examples/goose_publisher2/goose_publisher_example2 lo
 ```
 to send goose packets with incorrect stNums and sqNums.
 

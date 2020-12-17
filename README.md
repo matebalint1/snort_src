@@ -47,11 +47,9 @@ to send goose packets with incorrect stNums and sqNums.
 Upstream repos at:
 -------------
 
-https://github.com/snort3/snort3
-
-https://github.com/snort3/snort3_extra
-
-https://github.com/mz-automation/libiec61850
+*https://github.com/snort3/snort3
+*https://github.com/snort3/snort3_extra
+*https://github.com/mz-automation/libiec61850
 
 
 

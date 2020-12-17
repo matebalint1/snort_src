@@ -11,7 +11,7 @@ To install Snort 3, follow the instructions at https://github.com/matebalint1/sn
 
 After cloning Snort 3, run `$ git checkout tags/3.0.3-5` to choose the right version, then continue the installation process.
 
-Compile times can be cut by using the command `$ make -j $(nproc)` instead of `make` to use all available threads.
+Compile times can be cut by using the command `$ make -j $(nproc)` instead of `$ make` to use all available threads.
 
 At this point Snort 3 version 3.0.3-5 should be installed. Type `$ /usr/local/bin/snort -V` to verify.
 

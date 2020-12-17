@@ -39,7 +39,6 @@ run:
 ```
 $ make
 $ ./examples/goose_publisher/goose_publisher_example lo
-later
 $ ./examples/goose_publisher/goose_publisher_example2 lo
 ```
 to send goose packets with incorrect stNums and sqNums.

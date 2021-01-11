@@ -1,11 +1,11 @@
 # snort_src
 
-This is a repository for installing Snort 3 plugins which were made by Simon, modified by Balint.
+This repository includes the steps to install Snort 3 plugins for IEC61850 communication standards. The plugins were created by Simon and modified by Balint.
 
 Snort 3
 -------------
 
-Snort 3 version 3.0.3-5 is surely compatible with the most recent plugin version. Up-to-date dependencies and Snort 3 library at the time of writing this guide can be found at https://github.com/matebalint1/snort_src/tree/master/dependencies and https://iai-vcs.iai.kit.edu/usjsb/snort3. (In case the "Snort 3 on Ubuntu" guide does not apply anymore.)
+Snort 3 version 3.0.3-5 is surely compatible with the most recent plugin version. 
 
 To install Snort 3, follow the instructions at https://github.com/matebalint1/snort_src/blob/master/docs/Snort_3_on_Ubuntu.pdf "Installing Snort" chapter until cloning the Snort 3 repository.
 
@@ -14,6 +14,8 @@ After cloning Snort 3, run `$ git checkout tags/3.0.3-5` to choose the right ver
 Compile times can be cut by using the command `$ make -j $(nproc)` instead of `$ make` to use all available threads.
 
 At this point Snort 3 version 3.0.3-5 should be installed. Type `$ /usr/local/bin/snort -V` to verify.
+
+Alternatively, up-to-date dependencies and Snort 3 library at the time of writing this guide can be found at https://github.com/matebalint1/snort_src/tree/master/dependencies and https://iai-vcs.iai.kit.edu/usjsb/snort3. Installing Git LFS is neccessary to fetch the dependencies folder.
 
 Snort 3 plugin
 -------------

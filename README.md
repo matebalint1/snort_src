@@ -7,11 +7,11 @@ Snort 3
 
 Snort 3 version 3.0.3-5 is surely compatible with the most recent plugin version. 
 
-To install Snort 3, follow the instructions at https://github.com/matebalint1/snort_src/blob/master/docs/Snort_3_on_Ubuntu.pdf "Installing Snort" chapter until cloning the Snort 3 repository.
+To install Snort 3, follow the instructions at https://github.com/matebalint1/snort_src/blob/master/docs/Snort_3_on_Ubuntu.pdf "Installing Snort" chapter until cloning the Snort 3 repository. It is important to install the libdaq version which can be found in the dependencies folder, otherwise the modification of the main Snort 3 library might be neccesary due to incomplete renaming.
 
-After cloning Snort 3, run `$ git checkout tags/3.0.3-5` to choose the right version, then continue the installation process.
+After cloning Snort 3, run `$ git checkout tags/3.0.3-5` to choose the right version (or instead of cloning, simply use the submodule in this repository), then continue the installation process.
 
-Compile times can be cut by using the command `$ make -j $(nproc)` instead of `$ make` to use all available threads.
+Compile times can be shortened by using the command `$ make -j $(nproc)` instead of `$ make` to use all available threads.
 
 At this point Snort 3 version 3.0.3-5 should be installed. Type `$ /usr/local/bin/snort -V` to verify.
 
@@ -52,6 +52,5 @@ Upstream repos at:
 * https://github.com/snort3/snort3
 * https://github.com/snort3/snort3_extra
 * https://github.com/mz-automation/libiec61850
-
 
 
